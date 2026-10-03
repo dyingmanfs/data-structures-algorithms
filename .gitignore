@@ -1,0 +1,66 @@
+# =========================
+# C build files
+# =========================
+
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compiled binaries
+hash_table
+warehouse_graph
+
+# =========================
+# Build directories
+# =========================
+
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# IDE files
+# =========================
+
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Debug files
+# =========================
+
+*.dSYM/
+*.pdb
+*.ilk
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*~
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Operating system files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
