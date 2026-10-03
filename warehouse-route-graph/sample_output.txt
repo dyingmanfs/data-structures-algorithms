@@ -1,0 +1,52 @@
+WarehouseLocations.txt has been opened successfully
+WarehouseRoutes.txt has been opened successfully
+
+Warehouse and route data read successfully.
+
+Read warehouse locations:
+Lefkosa
+Guzelyurt
+Bostanci
+Lapta
+Girne
+Zeytinlik
+Gonyeli
+Haspolat
+Gazimagusa
+Gecitkale
+Inonu
+Lefke
+Yesilirmak
+Iskele
+Dipkarpaz
+Bogaz
+Kalkanli
+
+Read routes:
+Lefkosa | -35-> Haspolat | -10-> Gonyeli | -60-> Gazimagusa | -45-> Guzelyurt | -30-> Girne | -55-> Bostanci |
+Guzelyurt | -10-> Bostanci | -15-> Lefke | -5-> Kalkanli |
+Girne | -40-> Zeytinlik | -15-> Lapta | -50-> Guzelyurt |
+Gazimagusa | -30-> Gecitkale | -50-> Inonu | -20-> Iskele |
+Lefke | -15-> Yesilirmak |
+Iskele | -10-> Bogaz | -25-> Dipkarpaz |
+Kalkanli | -20-> Lapta |
+
+Warehouses that receives deliveries from the most different locations (2):
+- Guzelyurt 
+- Bostanci 
+- Lapta 
+
+Warehouses that sends deliveries to most different locations (6):
+- Lefkosa 
+
+Routes with the highest distance (60):
+Lefkosa -60-> Gazimagusa
+
+Routes with the smallest distance (5):
+Guzelyurt -5-> Kalkanli
+
+Searching for a route from Lefkosa to Dipkarpaz...
+Dipkarpaz <-25- Iskele <-20- Gazimagusa <-60- Lefkosa
+Total Distance: 105
+
+Process finished with exit code 0
